@@ -154,3 +154,55 @@ h4 {
 	margin: 0 auto;
 	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
+#navigation {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+	padding-top: 200px;
+}
+
+.nav-item {
+	display: block;
+	flex: 1 1 25%;
+	padding: 24px;
+}
+
+a.nav-item {
+	color: var(--main-dark);
+	text-decoration: none;
+	background-color: var(--bright);
+}
+
+a.nav-item:hover {
+	background: var(--orange);
+}
+
+a.nav-item:hover * {
+	color: var(--white);
+}
+
+.nav-item h1 {
+	font: 64px/1 Neucha, sans-serif;
+	margin-bottom: 40px;
+}
+
+.nav-item h2 {
+	margin: 0;
+	font-size: 52px;
+}
+
+.bg-black {
+	background-color: var(--main-dark);
+}
+
+
+.orange {
+	color: var(--orange);
+}
+
+.white {
+	color: var(--white);
+}
