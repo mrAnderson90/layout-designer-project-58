@@ -134,3 +134,23 @@ h4 {
 	color: var(--white);
 	background-color: var(--orange);
 }
+
+.p-0 {
+	padding: 0;
+}
+
+.title-video-section {
+	position: relative;
+	top: 70px;
+	z-index: 2;
+	text-align: center;
+}
+
+.video {
+	position: relative;
+	top: 100px;
+	z-index: 1;
+	display: block;
+	margin: 0 auto;
+	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
