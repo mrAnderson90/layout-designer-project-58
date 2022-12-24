@@ -234,6 +234,10 @@ a.nav-item:hover * {
 	margin-top: 0;
 }
 
+.bg-brown {
+	background-color: var(--brown);
+}
+
 .bg-black {
 	background-color: var(--main-dark);
 }
@@ -244,4 +248,17 @@ a.nav-item:hover * {
 
 .white {
 	color: var(--white);
+}
+
+.dark-theme {
+	color: white;
+}
+
+.dark-theme .flex-box .flex-box-item .content-header::before {
+	color: var(--white-op);
+}
+
+.dark-theme .text-header {
+	color: var(--brown);
+	background-color: var(--white);
 }
