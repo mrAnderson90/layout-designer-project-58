@@ -1,7 +1,136 @@
-/** CSS STYLE **/
+:root {
+	--white: #fff;
+	--white-op: #d7ccc0;
+	--bright: #f5f4f0;
+	--orange: #fe8a02;
+	--main-dark: #42413c;
+	--dark: #2a2626;
+	--dark-op: #908d8b;
+	--brown: #b09a81;
+	--blue: #1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+	font-family: Neucha;
+	src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
+}
 
-  color: #fff;
+@font-face {
+	font-weight: 400;
+	font-family: OpenSans;
+	src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: OpenSans;
+	src: url("../assets/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 16px/1.6 OpenSans, sans-serif;
+	color: #2A2626;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 400;
+	font-family: Neucha, cursive;
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 34px;
+}
+
+h4 {
+	font-size: 24;
+}
+
+.content {
+	position: relative;
+	width: 1110px;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.w-100 {
+	width: 100%;
+	height: 100%;
+}
+
+.bg-main {
+	position: relative;
+}
+
+.bg-main::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background-image: url("../assets/images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	opacity: 0.1;
+
+	content: '';
+}
+
+.title {
+	position: relative;
+	width: 100%;
+	margin: 0 0 185px;
+	z-index: 2;
+}
+
+.img-main {
+	position: absolute;
+	top: 55px;
+	right: -270px;
+	height: 525px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+.flex-box {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	column-gap: 30px;
+}
+
+.flex-box-item {
+	flex: 1 1 50%;
+}
+
+.btn-main {
+	display: inline-block;
+
+	padding: 12px 24px;
+	margin-top: 40px;
+
+	font: 700 16px/1.5 sans-serif;
+	text-decoration: none;
+	color: var(--white);
+	background-color: var(--orange);
 }
