@@ -155,7 +155,7 @@ h4 {
 	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#navigation {
+nav.container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -173,7 +173,7 @@ h4 {
 	padding: 24px;
 }
 
-#navigation .nav-item:nth-child(1) {
+nav.container .nav-item:nth-child(1) {
 	padding: 0;
 }
 
