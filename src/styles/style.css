@@ -67,7 +67,7 @@ h4 {
 }
 
 .w-100 {
-	width: 100%;
+	min-width: 1110px;
 }
 
 .bg-main {
@@ -166,8 +166,20 @@ h4 {
 
 .nav-item {
 	display: block;
-	flex: 1 1 25%;
+	flex: 0 1 31%;
+
+	box-sizing: border-box;
+
 	padding: 24px;
+}
+
+#navigation .nav-item:nth-child(1) {
+	padding: 0;
+}
+
+.nav-item h1 {
+	padding: 0;
+	margin: 0;
 }
 
 a.nav-item {
