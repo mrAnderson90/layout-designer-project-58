@@ -214,6 +214,10 @@ a.nav-item:nth-child(5) h3 {
 	margin: 12px 0;
 }
 
+a.nav-item p {
+	margin: 0;
+}
+
 .content-img {
 	vertical-align: middle;
 }
