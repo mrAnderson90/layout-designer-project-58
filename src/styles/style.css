@@ -85,6 +85,7 @@ h4 {
 	width: 100%;
 	height: 100%;
 
+	background-color: var(--white-op);
 	background-image: url("../assets/images/background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -236,6 +237,10 @@ a.nav-item:hover * {
 
 .column-2 * {
 	break-inside: avoid;
+}
+
+.footer {
+	padding: 100px 0;
 }
 
 .subscription {
