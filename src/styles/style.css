@@ -1,3 +1,8 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 :root {
 	--white: #fff;
 	--white-op: #d7ccc0;
@@ -28,8 +33,6 @@
 }
 
 body {
-	margin: 0;
-	padding: 0;
 	font: 16px/1.6 OpenSans, sans-serif;
 	color: #2A2626;
 }
@@ -69,12 +72,15 @@ h4 {
 .container {
 	position: relative;
 	width: 1110px;
-	padding: 100px 0;
 	margin: 0 auto;
 }
 
 .w-100 {
 	min-width: 1110px;
+}
+
+.p-100 {
+	padding: 100px 0;
 }
 
 .bg-main {
@@ -227,6 +233,7 @@ a.nav-item p {
 
 .content-img {
 	vertical-align: middle;
+	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .content-header {
