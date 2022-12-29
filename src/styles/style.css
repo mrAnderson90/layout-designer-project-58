@@ -276,10 +276,6 @@ a.nav-item p {
 	break-inside: avoid;
 }
 
-.footer {
-	padding: 100px 0;
-}
-
 .subscription {
 	width: 1110px;
 	height: 190px;
@@ -359,7 +355,8 @@ a.nav-item p {
 	font-size: 14px;
 }
 
-.contacts * {
+.contacts p {
+	margin: 16px 0 11px;
 	text-align: center;
 }
 
