@@ -59,6 +59,13 @@ h4 {
 	font-size: 24px;
 }
 
+.main-container {
+	position: relative;
+	width: 1110px;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
 .container {
 	position: relative;
 	width: 1110px;
@@ -155,7 +162,7 @@ h4 {
 	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-nav.container {
+nav.main-container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -173,7 +180,7 @@ nav.container {
 	padding: 24px;
 }
 
-nav.container .nav-item:nth-child(1) {
+nav.main-container .nav-item:nth-child(1) {
 	padding: 0;
 }
 
