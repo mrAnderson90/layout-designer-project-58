@@ -271,6 +271,12 @@ a.nav-item:nth-child(5) h3 {
   font: 34px/1.2 Neucha, cursive;
 }
 
+.contacts p {
+  margin: 16px 0 11px;
+
+  text-align: center;
+}
+
 a.nav-item p {
   margin: 0;
 }
@@ -311,12 +317,6 @@ a.nav-item p {
 .column-2 {
   column-count: 2;
   column-gap: 30px;
-}
-
-.contacts p {
-  margin: 16px 0 11px;
-
-  text-align: center;
 }
 
 .column-2 p:nth-child(1) {
