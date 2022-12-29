@@ -228,11 +228,6 @@ nav.main-container .nav-item:nth-child(1) {
   padding: 0;
 }
 
-.nav-item h1 {
-  margin: 0;
-  padding: 0;
-}
-
 a.nav-item {
   color: var(--main-dark);
   text-decoration: none;
@@ -242,6 +237,10 @@ a.nav-item {
 
 a.nav-item:hover {
   background: var(--orange);
+}
+
+.column-2 * {
+  break-inside: avoid;
 }
 
 a.nav-item:hover * {
@@ -266,6 +265,10 @@ a.nav-item h3 {
 
 a.nav-item:nth-child(5) h3 {
   margin: 12px 0;
+}
+
+.content-header + p {
+  font: 34px/1.2 Neucha, cursive;
 }
 
 a.nav-item p {
@@ -293,10 +296,6 @@ a.nav-item p {
   content: "Когнитивные искажения";
 }
 
-.content-header + p {
-  font: 34px/1.2 Neucha, cursive;
-}
-
 .text-header {
   margin: 100px 0 20px;
   padding: 5px 0 5px 10px;
@@ -314,12 +313,14 @@ a.nav-item p {
   column-gap: 30px;
 }
 
-.column-2 p:nth-child(1) {
-  margin-top: 0;
+.contacts p {
+  margin: 16px 0 11px;
+
+  text-align: center;
 }
 
-.column-2 * {
-  break-inside: avoid;
+.column-2 p:nth-child(1) {
+  margin-top: 0;
 }
 
 .subscription {
@@ -407,12 +408,6 @@ a.nav-item p {
   margin-top: 60px;
 
   font-size: 14px;
-}
-
-.contacts p {
-  margin: 16px 0 11px;
-
-  text-align: center;
 }
 
 .contacts a {
